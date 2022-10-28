@@ -1,0 +1,53 @@
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+  }
+p{
+    padding-top: 16px;
+}
+
+body{
+    background: #9b59b6;
+}
+
+.calc-body{
+    position: fixed;
+    bottom: 50px;
+    left: 522px;
+    width: 500px;
+    height: 610px;
+    background-color: rgb(39, 36, 36);
+    margin: auto;
+    border-radius: 25px;
+}
+
+#screen{
+    width: 460px;
+    height: 100px;
+    margin-left: 10px;
+    border-radius: 25px;
+    font-size: 60px;
+    text-align: right;
+}
+.btn{
+    width: 100px;
+    height: 90px;
+    margin: 10px;
+    border-radius: 25px;
+    font-size: 60px;
+    background-color: rgb(0, 0, 0);
+    color: #fff;
+
+}
+.btn:hover{
+    border: 5px solid yellow;
+}
+.clr{
+    background-color: red;
+}
+.operator{
+    background-color: rgb(59, 59, 59);
+}
